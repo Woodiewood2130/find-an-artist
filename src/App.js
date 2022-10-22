@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import "./index.css";
 import Angelz from "./img/angelz.png";
 
@@ -7,7 +9,7 @@ function App() {
       <div className="navbar bg-base-100">
         <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
           <div className="w-10 rounded-full">
-            <img src="/logo.png" />
+            <img alt="log" src="/logo.png" />
           </div>
         </label>
         <a className="btn btn-ghost normal-case text-xl">Find An Artist</a>
