@@ -3,9 +3,23 @@
 import "./index.css";
 import Angelz from "./img/angelzChazzy.png";
 
+import React, { useState, useEffect } from "react";
+
 function App() {
+  const [theme, setTheme] = useState("cmyk");
+
+  useEffect(() => {
+    const date = new Date();
+    const hours = date.getHours();
+    if (hours > 6 && hours < 18) {
+      setTheme("cupcake");
+    } else {
+      setTheme("night");
+    }
+  }, []);
+
   return (
-    <div data-theme="night">
+    <div data-theme={theme}>
       <div className="navbar bg-base-100">
         <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
           <div className="w-10 rounded-full">
