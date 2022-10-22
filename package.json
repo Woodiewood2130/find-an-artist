@@ -2,6 +2,7 @@
   "name": "find-an-artist",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://woodiewood2130/find-an-artist/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^13.0.0",
