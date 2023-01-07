@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/find-an-artist/static/css/main.f5143aab.css",
+    "main.js": "/find-an-artist/static/js/main.acf11ebc.js",
+    "static/media/angelzChazzy.png": "/find-an-artist/static/media/angelzChazzy.0ea6607e80758d518833.png",
+    "static/media/logo.png": "/find-an-artist/static/media/logo.4ce3e431eb0cdaf63f28.png",
+    "index.html": "/find-an-artist/index.html",
+    "main.f5143aab.css.map": "/find-an-artist/static/css/main.f5143aab.css.map",
+    "main.acf11ebc.js.map": "/find-an-artist/static/js/main.acf11ebc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5143aab.css",
+    "static/js/main.acf11ebc.js"
+  ]
+}
